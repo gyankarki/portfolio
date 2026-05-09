@@ -1,6 +1,5 @@
 import React from "react";
-import Link from "next/link";
-import { Award, Mail, FileText } from "lucide-react";
+import { Award } from "lucide-react";
 
 const HomePage = () => {
   return (
@@ -24,25 +23,6 @@ const HomePage = () => {
               Dedicated to student-centered teaching, curriculum development, and academic mentoring with over two decades of
               classroom experience.
             </p>
-
-            <div className='flex flex-col sm:flex-row gap-4'>
-              <Link
-                href='/contact'
-                className='px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center space-x-2'
-              >
-                <Mail className='w-5 h-5' />
-                <span>Book a Session</span>
-              </Link>
-              <Link
-                href='/cv.docx'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='px-8 py-4 border-2 border-gray-300 text-gray-700 rounded-xl font-semibold hover:border-blue-600 hover:text-blue-600 transition-all duration-200 flex items-center justify-center space-x-2'
-              >
-                <FileText className='w-5 h-5' />
-                <span>View CV</span>
-              </Link>
-            </div>
 
             <div className='flex items-center space-x-8 pt-4'>
               <div className='text-center'>
