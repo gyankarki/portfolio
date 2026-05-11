@@ -39,9 +39,8 @@ const AboutPage = () => {
                     <div>
                       <p className='font-semibold text-gray-900'>Address</p>
                       <p className='text-gray-600 text-sm'>
-                        Permanent: Vyas Municipality Ward No. 6, Tanahun
-                        <br />
-                        Home: Sitapaila, Padma Colony Phase I, House No. C-20, Kathmandu
+                        Akala, Sundarbazar Municipality Ward No. 8, Lamjung
+                       
                       </p>
                     </div>
                   </div>
@@ -50,17 +49,17 @@ const AboutPage = () => {
             </div>
 
             <div className='bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8'>
-              <h3 className='text-2xl font-bold text-gray-900 mb-6'>Professional Memberships</h3>
+              <h3 className='text-2xl font-bold text-gray-900 mb-6'>Professional Achievements</h3>
               <div className='grid md:grid-cols-2 gap-4'>
                 {[
                   "Chairperson, Academic Quality Committee (2079-2082)",
                   "Coordinator, Curriculum Review Committee (2079-2081)",
                   "Life Member, Nepal Education Council",
                   "Editor in Chief, Education & Research Journal",
-                ].map((membership, index) => (
+                ].map((achievement, index) => (
                   <div key={index} className='flex items-start space-x-3'>
                     <Star className='w-5 h-5 text-blue-600 mt-1 flex-shrink-0' />
-                    <p className='text-gray-700'>{membership}</p>
+                    <p className='text-gray-700'>{achievement}</p>
                   </div>
                 ))}
               </div>
@@ -74,24 +73,18 @@ const AboutPage = () => {
                 <div className='flex items-start space-x-3'>
                   <GraduationCap className='w-5 h-5 text-blue-400 mt-1' />
                   <div>
-                    <p className='font-semibold'>Professor</p>
-                    <p className='text-gray-300 text-sm'>Department of Social Sciences</p>
+                    <p className='font-semibold'>Teacher</p>
+                    <p className='text-gray-300 text-sm'>Bharati Sadan Secondary School</p>
                   </div>
                 </div>
                 <div className='flex items-start space-x-3'>
                   <GraduationCap className='w-5 h-5 text-blue-400 mt-1' />
                   <div>
                     <p className='font-semibold'>Lecturer</p>
-                    <p className='text-gray-300 text-sm'>National College, Sanepa</p>
+                    <p className='text-gray-300 text-sm'>Bhakti Adarsha Multiple Campus</p>
                   </div>
                 </div>
-                <div className='flex items-start space-x-3'>
-                  <Users className='w-5 h-5 text-blue-400 mt-1' />
-                  <div>
-                    <p className='font-semibold'>Academic Mentor</p>
-                    <p className='text-gray-300 text-sm'>Graduate Research Program</p>
-                  </div>
-                </div>
+               
               </div>
             </div>
 

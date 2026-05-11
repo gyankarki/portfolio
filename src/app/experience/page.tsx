@@ -45,30 +45,14 @@ const ExperiencePage = () => {
                   <div key={index} className='border-l-4 border-blue-600 pl-4'>
                     <h4 className='font-semibold text-gray-900'>{training.title}</h4>
                     <p className='text-sm text-gray-600'>
-                      {training.org || training.type} • {training.year}
+                      {training.type} • {training.year}
                     </p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className='bg-gradient-to-br from-blue-600 to-purple-600 text-white rounded-2xl p-8'>
-              <h3 className='text-xl font-bold mb-4'>Achievements</h3>
-              <div className='space-y-3'>
-                <div className='flex items-center space-x-3'>
-                  <Award className='w-5 h-5' />
-                  <span>Ph.D. and ongoing academic research</span>
-                </div>
-                <div className='flex items-center space-x-3'>
-                  <BookOpen className='w-5 h-5' />
-                  <span>Academic publications and conference papers</span>
-                </div>
-                <div className='flex items-center space-x-3'>
-                  <Users className='w-5 h-5' />
-                  <span>20+ Years Teaching Experience</span>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
