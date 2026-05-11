@@ -47,7 +47,7 @@ const Navbar = () => {
               </div>
               <div className='sm:block'>
                 <h2 className='text-xl font-bold text-gray-900'>Mr. Gyan Bahadur Karki</h2>
-                <p className='text-xs text-gray-600'>Teacher & Educator</p>
+                <p className='text-xs text-gray-600'>Head Teacher & Lecturer</p>
               </div>
             </Link>
           </div>

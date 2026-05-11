@@ -12,7 +12,6 @@ const Footer = () => {
   const teachingServices = [
     "Curriculum Design",
     "Lectures & Workshops",
-    "Research Mentoring",
     "Academic Advising",
     "Exam Preparation",
     "Career Guidance",
@@ -29,7 +28,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className='text-xl font-bold'>Mr. Gyan Bahadur Karki</h3>
-                <p className='text-gray-400'>Teacher • Lecturer • Researcher</p>
+                <p className='text-gray-400'> Educator </p>
               </div>
             </Link>
             <p className='text-gray-300 mb-6 max-w-md'>
@@ -80,8 +79,8 @@ const Footer = () => {
 
         <div className='border-t border-gray-800 mt-12 pt-8'>
           <div className='flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0'>
-            <p className='text-gray-400 text-sm'>© {new Date().getFullYear()} Mr. Gyan Bahadur Karki. All rights reserved.</p>
-            <p className='text-gray-400 text-sm'>Certified to be true by Mr. Gyan Bahadur Karki • March 21, 2024</p>
+            <p className='text-gray-400 text-sm'>© {new Date().getFullYear()}  All rights reserved.</p>
+            <p className='text-gray-400 text-sm'>Certified to be true by Mr. Gyan Bahadur Karki </p>
           </div>
         </div>
       </div>

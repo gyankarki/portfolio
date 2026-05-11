@@ -10,13 +10,13 @@ const HomePage = () => {
             <div className='space-y-4'>
               <div className='inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium'>
                 <Award className='w-4 h-4 mr-2' />
-                Ph.D. • Educator • Research Mentor
+                Head Teacher
               </div>
               <h1 className='text-5xl lg:text-6xl font-bold text-gray-900 leading-tight'>
                 Mr.{" "}
                 <span className='bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent'>Gyan Bahadur Karki</span>
               </h1>
-              <p className='text-xl text-gray-600 leading-relaxed'>Teacher • Lecturer • Researcher</p>
+              <p className='text-xl text-gray-600 leading-relaxed'>Teacher • Lecturer • Educator</p>
             </div>
 
             <p className='text-lg text-gray-700 leading-relaxed max-w-xl'>
