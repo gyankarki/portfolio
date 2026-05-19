@@ -30,7 +30,7 @@ const HomePage = () => {
                 <div className='text-sm text-gray-600'>Years Experience</div>
               </div>
               <div className='text-center'>
-                <div className='text-2xl font-bold text-gray-900'>1500+</div>
+                <div className='text-2xl font-bold text-gray-900'>8000+</div>
                 <div className='text-sm text-gray-600'>Students Mentored</div>
               </div>
             </div>

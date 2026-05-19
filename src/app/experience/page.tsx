@@ -37,10 +37,10 @@ const ExperiencePage = () => {
               <h3 className='text-2xl font-bold text-gray-900 mb-6'>Professional Development</h3>
               <div className='space-y-6'>
                 {[
-                  { title: "Teaching Methodologies", year: "2023", type: "Faculty Development" },
-                  { title: "Outcome-Based Education", year: "2023", type: "Academic Workshop" },
-                  { title: "Research Mentorship", year: "2022", type: "Professional Training" },
-                  { title: "Educational Leadership", year: "2021", type: "Leadership Program" },
+                  { title: "Head Master", year: "2075 BS - Present", type: "Bharati Sadan School" },
+                  { title: "Teacher", year: "2053 BS - Present", type: "Bharati Sadan School" },
+                  { title: "Head of Education Department", year: "2076 BS - Present", type: "Bhakti Adarsha Campus" },
+                  { title: "Lecturer - Education Faculty", year: "2066 BS - Present", type: "Bhakti Adarsha Campus" },
                 ].map((training, index) => (
                   <div key={index} className='border-l-4 border-blue-600 pl-4'>
                     <h4 className='font-semibold text-gray-900'>{training.title}</h4>

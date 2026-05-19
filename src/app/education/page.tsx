@@ -14,24 +14,24 @@ const EducationPage = () => {
           <div className='space-y-8'>
             {[
               {
-                degree: "Masters in Education",
-                specialization: "Curriculum Studies",
+                degree: "M.Ed.",
+                specialization: "Eduation Studies",
                 university: "Tribhuvan University",
-                year: "2019",
+                year: "2065 BS",
                 level: "Masters",
               },      
               {
                 degree: "B.Ed.",
                 specialization: "Education Studies",
                 university: "Tribhuvan University",
-                year: "1996",
+                year: "2056 BS",
                 level: "Bachelor",
               },
                {
                 degree: "I.Ed.",
                 specialization: "Education Studies",
                 university: "Tribhuvan University",
-                year: "1996",
+                year: "2052 BS",
                 level: "Intermediate",
               },
             ].map((education, index) => (

@@ -22,7 +22,7 @@ const AboutPage = () => {
                     <Calendar className='w-5 h-5 text-blue-600' />
                     <div>
                       <p className='font-semibold text-gray-900'>Date of Birth</p>
-                      <p className='text-gray-600'>August 07, 1973</p>
+                      <p className='text-gray-600'>July 25, 1975</p>
                     </div>
                   </div>
                   <div className='flex items-center space-x-3'>
@@ -52,10 +52,9 @@ const AboutPage = () => {
               <h3 className='text-2xl font-bold text-gray-900 mb-6'>Professional Achievements</h3>
               <div className='grid md:grid-cols-2 gap-4'>
                 {[
-                  "Chairperson, Academic Quality Committee (2079-2082)",
-                  "Coordinator, Curriculum Review Committee (2079-2081)",
-                  "Life Member, Nepal Education Council",
-                  "Editor in Chief, Education & Research Journal",
+                  "Best Teacher Award By Sundarbazar Municipality, 2073 BS",
+                  "Best SEE Result Award By Bharati Sadan, 2081 BS,2082 BS",
+                  "First President of Nepal National Teachers Association, Sundarbazar Branch",
                 ].map((achievement, index) => (
                   <div key={index} className='flex items-start space-x-3'>
                     <Star className='w-5 h-5 text-blue-600 mt-1 flex-shrink-0' />
